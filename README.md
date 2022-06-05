@@ -17,6 +17,6 @@ If you haven't a non-root user with sudo privileges, create it before run this s
 ```bash
 sudo adduser angel --quiet
 sudo usermod -aG sudo angel
-sudo apt-get update -y &&sudo apt-get install -y sudo git
+sudo apt-get update -y && sudo apt-get install -y sudo git
 sudo su angel
 ```
