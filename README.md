@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-
+git clone https://github.com/johnangelmx/.dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 bash install.sh
 ```
