@@ -1,14 +1,6 @@
-# Angel dotfiles
+# Debian 11 dotfiles
+Script post-instalacion o desplige , funcional con docker
 
-## Installation
-
-```bash
-git clone https://github.com/johnangelmx/.dotfiles.git ~/.dotfiles
-cd ~/.dotfiles
-bash install.sh
-```
-
-- Note: Do not run as root/sudo this file!
 
 ## Requisites
 
@@ -20,3 +12,13 @@ sudo usermod -aG sudo angel
 sudo apt-get update -y && sudo apt-get install -y sudo git
 sudo su angel
 ```
+
+## Installation
+
+```bash
+git clone https://github.com/johnangelmx/.dotfiles.git ~/.dotfiles
+cd ~/.dotfiles
+bash install.sh
+```
+
+- Note: Do not run as root/sudo this file!
