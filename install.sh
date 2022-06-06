@@ -32,6 +32,6 @@ source $HOME/.nvm/nvm.sh
 nvm install --lts
 npm install gtop -g
 # Change to ZSH
-sudo chsh -s /usr/bin/zsh
+sudo chsh angel -s /usr/bin/zsh
 
 zsh
