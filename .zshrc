@@ -1,9 +1,6 @@
 ZSH_THEME="agnoster"
 plugins=(git colored-man-pages)
 
-ZSH_THEME="agnoster"
-plugins=(git colored-man-pages)
-
 # Reload theme
 source $ZSH/oh-my-zsh.sh
 

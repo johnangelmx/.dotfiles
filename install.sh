@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Script for prepare Debian
-export DEBIAN_FRONTEND=noninteractive
+# export DEBIAN_FRONTEND=noninteractive
 # Update linux
 sudo apt-get autoremove -y
 sudo apt-get upgrade -y
