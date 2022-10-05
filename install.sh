@@ -15,7 +15,7 @@ sudo apt-get install -y bash zsh zgen sudo wget git \
     htop ncdu icdiff \
     unzip zip bzip2 p7zip-full \
     locales locales-all \
-    bat exa lolcat asciinema
+    bat exa 
 
 #
 sudo apt-get autoremove -y
@@ -34,5 +34,4 @@ npm install gtop -g
 # Change to ZSH
 sudo chsh $USER -s /usr/bin/zsh
 
-asciinema play https://asciinema.org/a/236096
 zsh
